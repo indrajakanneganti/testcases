@@ -1,0 +1,30 @@
+Good afternoon Sir/Madam,
+
+I would like to explain a test scenario that i have worked with JPM Chase before. Kindly, review the test case and let me
+know the feed back.
+
+Project: The title of our projectwas Mobile SDK, which is a service provider forboth iOS and Android. There are two applications
+to test the mobile SDK.
+1. TCV which is a dummy merchant application
+2. Chasepay which is a real application. Here, we will validate login to merchant and enable user then it redirects to chasepay.We
+enable the login for the first time and continue with the flow.
+
+Storey 1: Enablement flow
+1.Login to TCV with the given username and passowrd and we will be redirected to chasepay app
+2.Navigate to terms and conditions page.
+3.Enter the username and password.
+4.And we will be redirected to "request identification code" page
+5.Enter the identification code and proceed
+6.Then you will be logging in to the application.
+
+Storey 2: Payment page
+1. Login to the application
+2. Then we will see options like home, order, pay, merchants and more.
+3. click on "pay" button
+4. Then we will be navigated to pay page.
+5. When we clickon the pay page, we see four options called "QR code loading", "Chasepay Freedom cards", "at the cashier", "at the pump".
+6. When we click on "at the cashier"button.
+7. Then we will see "Chase Freedom cards".
+8. Click on "Chase freedom card".
+9. Then we will see the current balance and available points and a toggle switch to use the available points.
+10. Click on close button.
